@@ -50,7 +50,7 @@ Click the model-list action for the new channel to open **Model configs**. There
 2. Click **Sync models**.
 3. In the preview, keep the required models selected and click **Submit sync**.
 
-Use current DeepSeek model names such as `deepseek-v4-pro` or `deepseek-v4-flash`. DeepSeek V4 models support up to 1 million tokens of context; the Veloce model dialog does not expose a context-window field, so the selected model name and the downstream client or adapter determine the effective request limits. For supported clients, use the equivalent maximum reasoning setting when configuring the client.
+Use current DeepSeek model names such as `deepseek-v4-pro` or `deepseek-v4-flash`. DeepSeek V4 models support up to 1 million tokens of context; the Veloce model dialog does not expose a context-window field, so the selected model name and the downstream client or adapter determine the effective request limits. Veloce supports `max` and custom reasoning-effort identifiers; for clients that expose this setting, use `max` for the highest reasoning effort.
 
 **Add a model manually**
 

@@ -50,7 +50,7 @@ npx yumeri@latest -c yumeri.json --auto-install
 2. 点击 **Sync models（同步模型）**。
 3. 在预览窗口中保留需要的模型，点击 **Submit sync（提交同步）**。
 
-请使用当前的 DeepSeek 模型名称，例如 `deepseek-v4-pro` 或 `deepseek-v4-flash`。DeepSeek V4 模型支持最高 100 万 token 上下文；Veloce 的模型配置窗口没有上下文窗口字段，因此实际请求上限取决于所选模型以及下游客户端或适配器。对于支持该选项的客户端，请使用对应的最高推理强度配置。
+请使用当前的 DeepSeek 模型名称，例如 `deepseek-v4-pro` 或 `deepseek-v4-flash`。DeepSeek V4 模型支持最高 100 万 token 上下文；Veloce 的模型配置窗口没有上下文窗口字段，因此实际请求上限取决于所选模型以及下游客户端或适配器。Veloce 支持 `max` 以及自定义思考等级标识；对于支持该配置的客户端，请使用 `max` 获得最高推理强度。
 
 **手动添加模型**
 
